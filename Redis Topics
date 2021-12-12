@@ -1,0 +1,10 @@
+Redis Topics:
+
+- Basics of Redis
+- Introduction to Redis
+- Why Redis
+- Setting up Redis using Docker Compose
+- Redis as a key value store
+- DDL operations
+- Redis Data Types
+- CRUD operations
