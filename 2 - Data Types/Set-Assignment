@@ -1,0 +1,13 @@
+1. Create following sets
+    a. allEmp => Utkarsh, Yash, Piyush, Ruchita, Nutan, Yatin
+    b. onLeave => Yash, Yatin
+    c. seniorEmp => Nutan, Ruchita, Utkarsh
+    d. techStaff => Utkarsh, Yash, Piyush
+2. Print all employees without using allEmp
+3. Print the employees who are present in the office
+4. Print Senior Tech staff
+5. Print onLeave employees
+6. Print the total count of employees
+7. Pop an employees from allEmp
+8. Check if Utkarsh is onLeave or not
+9. Remove Yash from techStaff

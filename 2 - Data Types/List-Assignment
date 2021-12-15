@@ -1,0 +1,16 @@
+0. delete marks
+1. Create a list => [19, 23, 41, 45, 67, 19, 41, 67] <= marks (lpush and rpush)
+2. Print from list for following:
+    a. Whole list
+    b. first 3 element
+    c. everything except the last 2 element (-ve)
+3. Print the length of marks list
+4. Use LINDEX to find elements
+    a. first
+    b. last
+    c. 3rd
+    d. 3rd last (-ve index)
+5. Remove
+    a. 19
+    b. All 41s
+    c. 2 67s

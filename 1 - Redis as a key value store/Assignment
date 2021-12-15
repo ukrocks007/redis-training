@@ -1,0 +1,14 @@
+1. SET your name under the key "myname"
+2. GET your name
+3. SET <pincode> if pincode does not exists
+4. SET <topic> to Docker
+5. SET <topic> to redis of topic key exists
+6. SET <marks> to 40
+7. Incrment marks by 1
+8. Incrment marks by 10
+9. Decrment marks by 1
+10. Decrment marks by 10
+11. GET name, pincode, topic, marks
+12. SET <topic1="Docker"> <marks1="50"> <grade1="A+">
+13. Check if topic1 & topic2 keys exists
+14. Delete pincode

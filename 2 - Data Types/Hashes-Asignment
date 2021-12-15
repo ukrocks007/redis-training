@@ -1,0 +1,10 @@
+1. Create a Hash named employees with fields
+    a. Name
+    b. Company
+    c. YearOfJoining
+    d. Salary
+2. Set a new field => IncrementPercentage
+3. Print the Hash
+4. Prints just the values & fields
+5. Print YearOfJoining
+6. Print the length of Hash
