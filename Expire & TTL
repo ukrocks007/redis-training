@@ -1,0 +1,6 @@
+127.0.0.1:6379> set sensex 23430
+OK
+127.0.0.1:6379> expire sensex 15
+(integer) 1
+127.0.0.1:6379> ttl sensex
+(integer) 9

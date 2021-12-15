@@ -1,0 +1,8 @@
+EXPIRE TTL
+1. Create a key value pair => [GoogleBuyRate = 14254]
+2. Set expiry of 10 seconds to GoogleBuyRate
+3. Check expiry using ttl
+
+Transactions
+1. Create KV pairs => [BTCBalA => 10, BTCBalB => 8, BTCBalC => 0]
+2. Write a Transactions which will use incrby & decrby to make all the balance = 6

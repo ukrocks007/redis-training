@@ -1,0 +1,17 @@
+127.0.0.1:6379> set balA 1000
+OK
+127.0.0.1:6379> set balB 600
+OK
+127.0.0.1:6379> multi
+OK
+127.0.0.1:6379(TX)> incrby balB 200
+QUEUED
+127.0.0.1:6379(TX)> decrby balA 200
+QUEUED
+127.0.0.1:6379(TX)> exec
+1) (integer) 800
+2) (integer) 800
+127.0.0.1:6379> mget balA balB
+1) "800"
+2) "800"
+127.0.0.1:6379> 

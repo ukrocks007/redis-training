@@ -4,6 +4,10 @@ const Redis = require("ioredis");
 const redis = new Redis(6379);
 const bodyParser = require("body-parser");
 
+// redis.subscribe("chat", (err, res) => {
+//     console.log(res, err);
+// })
+
 app.use(bodyParser.json());
 
 app.get('/name', async (req, res) => {
@@ -17,6 +21,11 @@ app.get('/name', async (req, res) => {
 
 app.post('/name', async (req, res) => {
     await redis.set('name', req.body.name);
+    res.status(200).send(true);
+});
+
+app.post('/chat', async (req, res) => {
+    await redis.publish('chat', req.body.msg);
     res.status(200).send(true);
 });
 
